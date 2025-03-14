@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 &sk {
-    release-after-ms = <750>;
     quick-release;
 };
 
@@ -25,8 +24,6 @@
 #define CUT   LG(X)
 #define COPY  LG(C)
 #define PASTE LG(V)
-
-#define MEH(KEY) LS(LC(LA(LG(KEY))))
 
 / {
     macros {
@@ -138,18 +135,18 @@
 
 		num_layer {
 			bindings = <
-                   &kp UNDER    &kp N6        &kp N5        &kp N4             &kp PLUS           &kp STAR            &kp F4           &kp F5                   &kp F6        &kp F10
-                   &kp DOT      &kp N3        &kp N2        &kp N1             &kp MINUS          &kp LSHFT           &kp F1           &kp F2                   &kp F3        &kp F11
-                   &kp COMMA    &kp N9        &kp N8        &kp N7             &kp EQUAL          &kp COLON           &kp F7           &kp F8                   &kp F9        &kp F12
+                   &kp F10      &kp F6        &kp F5        &kp F4             &kp STAR           &kp PLUS            &kp N4           &kp N5                   &kp N6        &kp UNDER
+                   &kp F11      &kp F3        &kp F2        &kp F1             &sk LSHFT          &kp MINUS           &kp N1           &kp N2                   &kp N3        &kp DOT
+                   &kp F12      &kp F9        &kp F8        &kp F7             &kp COLON          &kp EQUAL           &kp N7           &kp N8                   &kp N9        &kp COMMA
 				 /*&            &*/           &trans        &trans             &kp N0             &kp N0              &trans           &trans                 /*&             &*/
 			>;
 		};
 
 		nav_layer {
 			bindings = <
-                   &kp MEH(T)   &trans        &trans        &trans             &bt BT_CLR         &bt BT_PRV          &bt BT_NXT       &trans                   &trans        &kp MEH(T)
-                   &sk LALT     &sk LGUI      &sk LSHFT     &sk LCTRL          &trans             &trans              &kp LEFT         &kp DOWN                 &kp UP        &kp RIGHT
-                   &trans       &kp CUT       &kp COPY      &kp PASTE          &trans             &trans              &kp HOME         &kp K_PREV               &kp K_NEXT    &kp END
+                   &trans       &trans        &trans        &trans             &bt BT_CLR         &bt BT_PRV          &bt BT_NXT       &trans               &trans        &trans
+                   &sk LALT     &sk LGUI      &sk LSHFT     &sk LCTRL          &trans             &trans              &kp LEFT         &kp DOWN             &kp UP        &kp RIGHT
+                   &trans       &kp CUT       &kp COPY      &kp PASTE          &trans             &trans              &kp HOME         &kp K_PREV           &kp K_NEXT    &kp END
 				 /*&            &*/           &trans        &trans             &trans             &trans              &trans           &trans             /*&             &*/
 			>;
 		};
