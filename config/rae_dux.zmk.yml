@@ -1,6 +1,6 @@
 file_format: "1"
 id: rae_dux
-name: rae-dux
+name: best-keyboard
 type: shield
 url: https://github.com/andrewjrae/rae-dux
 requires: [pro_micro]
