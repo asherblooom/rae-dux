@@ -48,8 +48,8 @@
         COMBO(caps_word_left, &caps_word, 13 14, 60)
         COMBO(caps_word_right, &caps_word, 15 16, 60)
 
-		COMBO(escape_left, &kp esc, 12 13, 60)
-		COMBO(escape_right, &kp esc, 16 17, 60)
+		COMBO(escape_left, &kp ESC, 12 13, 60)
+		COMBO(escape_right, &kp ESC, 16 17, 60)
 
 		COMBO(round_bracket_open, &kp LPAR, 2 3, 60)
 		COMBO(round_bracket_close, &kp RPAR, 6 7, 60)
