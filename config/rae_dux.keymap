@@ -47,6 +47,21 @@
 
         COMBO(caps_word_left, &caps_word, 13 14, 60)
         COMBO(caps_word_right, &caps_word, 15 16, 60)
+
+		COMBO(escape_left, &kp esc, 12 13, 60)
+		COMBO(escape_right, &kp esc, 16 17, 60)
+
+		COMBO(round_bracket_open, &kp LPAR, 2 3, 60)
+		COMBO(round_bracket_close, &kp RPAR, 6 7, 60)
+
+		COMBO(curly_bracket_open, &kp LBRC, 22 23, 60)
+		COMBO(curly_bracket_close, &kp RBRC, 26 27, 60)
+
+		COMBO(square_bracket_open, &kp LBKT, 3 4, 60)
+		COMBO(square_bracket_close, &kp RBKT, 5 6, 60)
+
+		COMBO(angle_bracket_open, &kp LT, 23 24, 60)
+		COMBO(angle_bracket_close, &kp GT, 25 26, 60)
     };
 
     behaviors {
@@ -102,7 +117,7 @@
                    &kp Q        &kp W         &kp E         &kp R         &kp T               &kp Y         &kp U         &kp I         &kp O         &kp P
                    &kp A        &kp S         &kp D         &kp F         &kp G               &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON
                    &kp Z        &kp X         &kp C         &kp V         &kp B               &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH
-				 /*&            &*/           &ms LSHFT LSHFT &lt SYM_L BSPC &mt LCTRL TAB          &mt LGUI ESC &lt NUM_L SPC &lt NAV_L RET  /*&             &*/
+				 /*&            &*/           &ms LSHFT LSHFT &lt SYM_L BSPC &mt LCTRL TAB          &mt LGUI ESC &lt NUM_L SPC &lt NUM_L RET  /*&  &lt NAV_L RET &*/
 			>;
 		};
 
