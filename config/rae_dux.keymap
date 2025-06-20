@@ -54,11 +54,11 @@
 		COMBO(round_bracket_open, &kp LPAR, 2 3, 40)
 		COMBO(round_bracket_close, &kp RPAR, 6 7, 40)
 
-		COMBO(curly_bracket_open, &kp LBRC, 22 23, 40)
-		COMBO(curly_bracket_close, &kp RBRC, 26 27, 40)
+		COMBO(curly_bracket_open, &kp LBRC, 3 4, 40)
+		COMBO(curly_bracket_close, &kp RBRC, 5 6, 40)
 
-		COMBO(square_bracket_open, &kp LBKT, 3 4, 40)
-		COMBO(square_bracket_close, &kp RBKT, 5 6, 40)
+		COMBO(square_bracket_open, &kp LBKT, 22 23, 40)
+		COMBO(square_bracket_close, &kp RBKT, 26 27, 40)
 
 		COMBO(angle_bracket_open, &kp LT, 23 24, 40)
 		COMBO(angle_bracket_close, &kp GT, 25 26, 40)
