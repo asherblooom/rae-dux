@@ -17,9 +17,8 @@
 };
 
 #define BASE_L  0
-#define SYM_L   1
-#define NUM_L   2
-#define NAV_L   3
+#define NUM_L   1
+#define NAV_L   2
 
 / {
     combos {
@@ -116,15 +115,6 @@
 				&kp A         &kp S         &kp D         &kp F         &kp G               &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON
 				&kp Z         &kp X         &kp C         &kp V         &kp B               &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH
 				/*&          &*/            &ms LSHFT LSHFT &lt NUM_L BSPC &mt LCTRL TAB    &mt LGUI ESC  &lt NUM_L SPC &lt NUM_L RET  /*&  &lt NAV_L RET &*/
-			>;
-		};
-
-		sym_layer {
-			bindings = <
-				&none        &kp GRAVE     &kp APOS      &kp DQT         &kp PIPE           &none          &kp LBRC       &kp RBRC      &none       &kp N0
-				&kp AT       &kp HASH      &kp LT        &kp GT          &kp TILDE          &none          &kp LPAR       &kp RPAR      &none       &kp UNDER
-				&none        &none         &none         &kp MINUS       &kp BSLH           &none          &kp LBKT       &kp RBKT      &none       &kp DLLR
-				/*&            &*/         &trans        &trans          &trans             &trans         &trans         &trans                 /*&             &*/
 			>;
 		};
 
