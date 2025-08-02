@@ -20,10 +20,6 @@
 #define NUM_L   1
 #define NAV_L   2
 
-#define CUT   LG(X)
-#define COPY  LG(C)
-#define PASTE LG(V)
-
 / {
     combos {
         compatible = "zmk,combos";
