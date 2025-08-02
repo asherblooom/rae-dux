@@ -123,7 +123,7 @@
                    &kp GRAVE     &kp APOS      &kp DQT       &kp AMPS      &kp CARET           &kp EXCL      &kp EQUAL     &kp PLUS      &kp STAR      &kp DLLR
                    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5              &kp N6        &kp N7        &kp N8        &kp N9        &kp N0
                    &kp HASH      &kp BSLH      &kp TILDE     &kp PIPE      &kp PRCNT           &kp QMAR      &kp EQUAL     &kp MINUS     &kp FSLH      &kp UNDER
-				 /*&             &*/           &trans        &lt SYM_L BSPC &trans             &trans        &lt SYM_L SPC &trans         /*&             &*/
+				 /*&             &*/           &trans        &lt NAV_L BSPC &trans             &trans        &lt NAV_L SPC &trans         /*&             &*/
 			>;
 		};
 
