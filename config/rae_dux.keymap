@@ -130,9 +130,9 @@
 		nav_layer {
 			bindings = <
 				&kp LG(N1)    &kp LG(N2)    &kp LG(N3)    &kp LG(N4)    &kp LG(N5)          &kp LG(N6)    &kp LG(N7)    &kp LG(N8)    &kp LG(N9)    &kp LG(N0)
-				&kp LS(LG(Q)) &none         &kp LS(LG(S)) &kp LS(LG(RET)) &kp LS(LG(H))     &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp LG(P)
+				&kp LS(LG(Q)) &none         &kp LG(COMMA) &kp LS(LG(RET)) &kp LG(DOT)       &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp LG(P)
 				&kp LSHIFT    &kp LG(F)     &kp LG(T)     &kp LG(M)     &kp LG(B)           &kp LG(H)     &kp LG(J)     &kp LG(K)     &kp LG(L)     &kp LG(RET)
-				/*&           &*/           &kp LG(D)     &trans        &kp F11                &trans        &trans        &kp LG(I)         /*&             &*/
+				/*&           &*/           &kp LG(D)     &trans        &kp LS(LG(S))       &kp LS(LG(H)) &trans        &kp LG(I)         /*&             &*/
 			>;
 		};
 	};
