@@ -114,7 +114,7 @@
 				&kp Q         &kp W         &kp E         &kp R         &kp T               &kp Y         &kp U         &kp I         &kp O         &kp P
 				&kp A         &kp S         &kp D         &kp F         &kp G               &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON
 				&kp Z         &kp X         &kp C         &kp V         &kp B               &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH
-				/*&          &*/            &ms LSHFT LSHFT &lt NUM_L BSPC &mt LCTRL TAB    &mt LGUI ESC  &lt NUM_L SPC &lt NUM_L RET  /*&  &lt NAV_L RET &*/
+				/*&          &*/            &ms LSHFT LSHFT &lt NUM_L BSPC &lt NAV_L TAB    &lt NAV_L ESC &lt NUM_L SPC &mt LCTL RET   /*&             &*/
 			>;
 		};
 
@@ -132,7 +132,7 @@
 				&kp LG(N1)    &kp LG(N2)    &kp LG(N3)    &kp LG(N4)    &kp LG(N5)          &kp LG(N6)    &kp LG(N7)    &kp LG(N8)    &kp LG(N9)    &kp LG(N0)
 				&kp LS(LG(Q)) &none         &kp LG(COMMA) &kp LS(LG(RET)) &kp LG(DOT)       &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp LG(P)
 				&kp LSHIFT    &kp LG(F)     &kp LG(T)     &kp LG(M)     &kp LG(B)           &kp LG(H)     &kp LG(J)     &kp LG(K)     &kp LG(L)     &kp LG(RET)
-				/*&           &*/           &kp LG(D)     &trans        &kp LS(LG(S))       &kp LS(LG(H)) &trans        &kp LG(I)         /*&             &*/
+				/*&           &*/           &kp LG(D)     &trans        &kp LS(LG(S))       &kp LS(LG(H)) &trans        &kp LG(I)      /*&             &*/
 			>;
 		};
 	};
